@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Warner Bros | TV Shows</title>
+		<link rel="stylesheet" href="warner_style.css">
+    </head>
+
+    <body>
+        <!--NAVIGATION BAR THAT APPEARS ON EVERY PAGE-->
+        <div class="topsection">
+            <nav>
+            <ul>
+                <li><a href="warnerbros_tvshows.html">TV SHOWS</a></li>
+                <li><a href="warnerbros_movies.html" class="TV">MOVIES</a></li>
+                <li><a href="warnerbros_games.html">GAMES</a></li>
+                <li><a href="warnerbros_shop.html">SHOP</a></li>
+                <li><a href="warnerbros_news.html">NEWS</a></li>
+            </ul>
+            <a href="index.html" class="logo"><!--LINK TAKES US BACK TO THE HOME PAGE WHEN USER CLICKS ON THE LOGO-->
+                <img src="warner_logo.png" alt="Warner Bros logo" width="80px" height="80px">
+            </a>
+            <button type="button">SEARCH</button><!--A BUTTON FOR SEARCHING BUT I DIDNT GIVE IT ANY FUNCTIONALITY-->
+            </nav>
+        </div>
+
+        <section class="set_info">
+                <!--THIS BLOCK CONTAINS  THE LATEST SERIES. WHEN A USER HOVERS OVER A PICTURE, IT BLURS  AND PROVIDES ITS NAME AND HOW TO WATCH THEM-->
+                 <div class="image_container">
+                    <img src="freeguy.jpg" width="400px" height="500px" alt="Top Boy" class="myimages">
+                    <div class="content content--blur">
+                        <a href="wa" class="img_title">TOP BOY</a>
+                        <p class="img_description">WATCH ON NETFLIX</p>
+                    </div>
+                </div>
+        </section>
+        <p class="news">
+            When a bank teller discovers he's actually a background player in an open-world video game, he decides to become the hero of his own story -- one that he can rewrite himself.
+            <br>
+            <br>
+             In a world where there's no limits, he's determined to save the day his way before it's too late, and maybe find a little romance with the coder who conceived him.
+        </p>
+
+        <footer>
+            <p class="footerboy"><!--FOOTER THAT SHOULD CONTAIN THE COPYRIGHT INFORMATION AND MY NAME-->
+                TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.
+                Site Designed by Alexander Mahachi
+            </p>
+        </footer>
+     </body>
+</html>
